@@ -5,19 +5,22 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     private Vector3 moveForce;
-    public float moveSpeed = 50;
-    public float maxSpeed = 15;
-    public float steerAngle = 20;
+    public float moveSpeed = 205;
+    public float maxSpeed = 610;
+    public float steerAngle = 10;
     public float drag = 0.98f;
-    public float traction = 1;
+    public float traction = 0.6f;
 
     private Rigidbody rb;
     private bool floating = false;
+   
 
-    public float _timeHeld = 0.0f;
-    public float _timeForFullJump = 2.0f;
-    public float _minJumpForce = 3.0f;
-    public float _maxJumpForce = 15.0f;
+    private float _timeHeld = 0.0f;
+    private float _timeForFullJump = 2.0f;
+    public float _minJumpForce = 5.0f;
+    public float _maxJumpForce = 22.0f;
+
+
 
     void Start()
     {
@@ -54,6 +57,17 @@ public class Movement : MonoBehaviour
          {
              jump();
          }
+
+         if(Input.GetKey(KeyCode.J)&&floating==true)
+         {
+            this.transform.Rotate(0,3,0);
+         }
+
+         if(Input.GetKey(KeyCode.K)&&floating==true)
+         {
+            this.transform.Rotate(0,0,3);
+         }
+       
     }
 
     private void jump()
