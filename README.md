@@ -23,3 +23,5 @@ y asi simular el deslizamiento sobre la nieve.
 4. Utilizar los botones de AWSD para desplazarse, la barra espaciadora para saltar y
 las letras J y K para realizar maniobras. Además, puede mover la camara con el mouse.
 
+### Errores frecuentes
+En ocasiones el pingüino va muy rapido y su collider logra atravesar el plano que representa el suelo del juego. En estos casos hay que reiniciar el juego.
