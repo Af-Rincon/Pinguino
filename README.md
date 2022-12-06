@@ -15,6 +15,13 @@ varias figuras primitivas, que en conjunto formaron estructuras más complejas. 
 a la escena, la cual esta ambientada en el Ártico. Por ultimo, se utilizaron efectos especiales (VFX) para que el pingüino dejara un rastro por los lugares por los cuales iba pasando 
 y asi simular el deslizamiento sobre la nieve. 
 
+## Assets y Paquetes
+
+- CinemaMachine
+- ProBuilder
+- 4 Snow Materials
+- Low Poly Winter Pack
+
 ## Instrucciones para la ejecución
 
 1. Clonar el repositorio.
