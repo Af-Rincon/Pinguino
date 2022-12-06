@@ -26,7 +26,7 @@ y asi simular el deslizamiento sobre la nieve.
 
 1. Clonar el repositorio.
 2. Abrir la carpeta del repositorio en UnityHub.
-3. Abrir la escena y darle al boton de Play.
+3. Abrir la escena SampleScene y darle al boton de Play.
 4. Utilizar los botones de AWSD para desplazarse, la barra espaciadora para saltar y
 las letras J y K para realizar maniobras. Además, puede mover la camara con el mouse.
 
